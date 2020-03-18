@@ -1,0 +1,127 @@
+.contactus-banner-text {
+display: flow-root;
+position: absolute;
+width: 35.5%;
+}
+
+.contactus-banner-text-1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  font-family: "Gothic A1";
+  color: #FFFFFF;
+  margin-bottom: 5%;
+}
+
+.contactus-banner-text-2 {
+	color: #FFFFFF;
+  font-family: "Gothic A1";
+  font-size: 36px;
+	line-height: 45px;
+  text-align: center;
+}
+
+.page-contact-us {
+    position: relative;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-section-2 {
+margin-top: 9.23%;
+}
+
+.contact-us-section-2 .contact-us-title {
+  padding-bottom: 7.404%;
+  font-weight: bold;
+  line-height: 20px;
+  color: #000000;
+  font-size: 18px;
+}
+
+.contact-us-section-2 .contact-us-subtitle {
+  font-size: 16px;
+  color: #33475B;
+  line-height: 24px;
+  padding-bottom: 12.235%;
+}
+
+.contact-form {
+  background-color: #FFFFFF;
+  padding:4.5%;
+}
+
+.contact-us-label {
+  font-family: "Gothic A1";
+  color: #33475B;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.contact-us-recaptcha {
+  margin: 18px 0px;
+}
+
+.contact-us-submit {
+  font-family: "Gothic A1";
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #994B2F;
+  height:40px;
+  width: 130px;
+}
+
+.contact-us-submit:hover {
+  color: #FFFFFF;
+}
+
+.contact-us-reset {
+  font-family: "Gothic A1";
+  font-weight: bold;
+  font-size: 16px;
+  color: #994B2F;
+  height:40px;
+  width: 130px;
+}
+
+.contact-us-reset:hover {
+  color: #994B2F;
+}
+
+.contactus-error {
+  color: red;
+}
+
+
+/** mobile */
+@media screen and (max-width: 769px) {
+  .contactus-banner-text-1 {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .contactus-banner-text-2 {
+    font-size: 13px;
+    line-height: 14px;
+  }
+
+  .contact-us-section-2 .contact-us-title {
+    font-size: 13px;
+    line-height: 14px;
+  }
+
+  .contact-us-section-2 .contact-us-subtitle {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .contact-us-recaptcha {
+    overflow:hidden;
+    border-left: 1px solid #dbdbdb;
+
+    border-right: 1px solid #dbdbdb;
+
+  }
+}

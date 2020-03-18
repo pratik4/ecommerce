@@ -1,0 +1,68 @@
+.home-blog {
+    background-color: #F0F8FF;
+    padding: 5%;
+}
+
+.home-blogs-title {
+  color: #000000;
+  font-family: "Gothic A1";
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.home-blogs-subtitle {
+    margin-top: 2%;
+    margin-bottom: 6%;
+  color: #000000;
+  font-family: "Gothic A1";
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.blog-title {
+  opacity: 0.8;
+  color: #000000;
+  font-family: "Gothic A1 ExtraLight";
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.blog-subtitle {
+  color: #000000;
+  opacity: 0.5;
+  font-family: "Gothic A1";
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.blog-content {
+  padding-top: 7%;
+  color: #000000;
+  font-family: "Gothic A1";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.blog-link {
+  padding-top: 31px;
+
+  color: #000000;
+  font-size: 13px;
+  font-family: "Gothic A1";
+  font-weight: bold;
+  line-height: 18px;
+  border-bottom: 1px solid #FF713E
+}
+
+@media screen and (max-width: 769px) {
+  .home-blogs-title {
+    font-size: 13px;
+  }
+  .home-blogs-subtitle {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}

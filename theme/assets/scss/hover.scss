@@ -1,0 +1,169 @@
+.venn-container {
+  padding: 3.9% 3.9% 3.9% 25%;
+}
+
+
+/*
+Accordian
+*/
+.accordion {
+
+}
+.accordion .accordion-item:first-child .title {
+  border-radius:5px;
+}
+.accordion .accordion-item:last-child .title {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.accordion .accordion-item .title {
+  background-color: #fff;
+  color: #994B2F;
+  cursor: pointer;
+  padding: 10px 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  border: 1px solid #dbdbdb;
+  font-size: 14px;
+}
+.accordion .accordion-item .title:after {
+  content: '\2795';
+  font-size: 13px;
+  float: right;
+  margin-left: 5px;
+}
+.accordion .accordion-item .panel {
+  max-height: 0;
+  -webkit-transition: max-height 0.15s ease-out;
+  -o-transition: max-height 0.15s ease-out;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+}
+
+.accordion .accordion-item.active .title:after {
+  content: '\2796';
+}
+.accordion .accordion-item.active .panel {
+  max-height: 500px;
+  -webkit-transition: max-height 0.25s ease-in;
+  -o-transition: max-height 0.25s ease-in;
+  transition: max-height 0.25s ease-in;
+}
+
+/*# sourceMappingURL=index.css.map*/
+
+
+
+.about-height {
+  height: 750px;
+}
+
+.about-hide-content {
+  display: none;
+}
+
+.venn {
+  width: 400px;
+  height: 400px;
+}
+
+.venncirctop {
+  display: flex;
+  position: absolute;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border-radius: 50%;
+
+  background-color: #994B2F;
+  margin-top: -8%;
+}
+
+.venncircle{
+-webkit-transition: all 200ms ease-in;
+-webkit-transform: scale(0.95);
+-ms-transition: all 200ms ease-in;
+-ms-transform: scale(0.95);
+-moz-transition: all 200ms ease-in;
+-moz-transform: scale(0.95);
+transition: all 200ms ease-in;
+transform: scale(0.95);
+
+}
+.venncirclehover {
+  z-index: 99;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+
+.venncirclft {
+  padding: 18px;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  margin-left: -12.54%;
+  background-color: #F0BC5E;
+  margin-top: 8.9%;
+}
+
+.venncircrt {
+  padding: 18px;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  margin-left: 12.54%;
+  text-align: right;
+  margin-top: 8.9%;
+  background-color: #FF713E;
+}
+
+.venntxttop {
+  margin: auto;
+}
+
+.venntxtrt {
+  margin:auto;
+  }
+
+.venntxtlft {
+  margin: auto;
+}
+
+@media screen and (max-width: 769px) {
+  .venn {
+    height: 180px;
+    width: 180px;
+  }
+
+  .venn .image {
+    height: 64px;
+    width: 64px;
+  }
+
+  .venncirctop {
+    margin-top: -13%;
+  }
+
+  .venn-container {
+    padding: 3.9% 3.9% 3.9% 20%;
+  }
+
+  .about-height {
+    height: auto;
+  }
+}

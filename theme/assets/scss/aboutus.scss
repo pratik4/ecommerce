@@ -1,0 +1,151 @@
+.aboutus-content {
+  color: #494949;
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+  font-family: "Gothic A1";
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.aboutus-banner-text {
+display: flow-root;
+position: absolute;
+width: 43.4%;
+}
+
+.about-us-page {
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-banner-text-2 {
+  color: #FFFFFF;
+  font-family: "Gothic A1";
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+}
+.aboutus-banner-text-1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  font-family: "Gothic A1";
+  color: #FFFFFF;
+  margin-bottom: 5%;
+
+}
+.aboutus-section-3-title {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 65px;
+}
+
+.choose-us-for {
+  background-color: #F0F8FF;
+  padding-top:50px;
+  padding-bottom: 100px;
+  margin-bottom:30px;
+}
+
+.choose-us-for .card {
+  background-color: #F0F8FF;
+}
+.aboutus-image-title {
+  color: #33475B;
+  font-family: "Gothic A1";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.about-us-section-4-title {
+  color: #994B2F;
+  font-weight: bold;
+  line-height: 36px;
+  font-family: "Gothic A1";
+  font-size: 28px;
+}
+
+.about-us-section-4-subtitle {
+    padding:50px 10px;
+    color: #33475B;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+
+.about-us-cards-1 {
+  margin-bottom: 100px;
+}
+
+
+
+.about-us-cards-1 .card {
+  width: 200px;
+  box-shadow: none;
+}
+
+
+.about-us-cards-2 {
+}
+
+.about-us-cards-2 .card {
+  width: 400px;
+  box-shadow: none;
+}
+
+.about-us-cards-2 .content, .about-us-cards-1 .content {
+  text-align: center;
+  line-height: 21px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Gothic A1";
+  color: #33475B;
+}
+
+
+
+
+@media screen and (max-width: 769px) {
+  .aboutus-content {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .about-us-cards {
+    margin: auto auto 20px auto
+  }
+
+  .aboutus-banner-text-1 {
+    font-size: 10px;
+  }
+
+  .aboutus-banner-text-2 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .about-us-section-4-title {
+    font-size: 20px;
+      line-height: 20px;
+      padding: 5px 18px;
+
+  }
+
+  .about-us-section-4-subtitle {
+    color: #33475b;
+
+    font-size: 13px;
+
+    line-height: 20px;
+
+    padding: 0px 18px 5px 18px;
+  }
+}
